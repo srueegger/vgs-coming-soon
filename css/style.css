@@ -524,5 +524,11 @@ p {
         margin-top: 18px;
         font-size: 12px;
     }
-
+	#logo {
+		background: url("../img/vgs-logo-white-mobile.png") no-repeat center;
+		height: 115px;
+	}
+	.body-bg {
+		background-position: right center;
+	}
 }

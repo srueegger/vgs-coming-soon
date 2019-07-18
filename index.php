@@ -13,7 +13,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Roboto:500,500italic,100,100italic,300,300italic' rel='stylesheet' type='text/css'>
 		<!-- CSS -->
 		<link rel="stylesheet" href="font-awesome/css/font-awesome.css" />
-		<link rel="stylesheet" href="css/style.css?ver=2" />
+		<link rel="stylesheet" href="css/style.css?ver=4" />
 		<!--[if lt IE 9]><script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
 		<!-- JS -->      
 		<script type="text/javascript" src="js/modernizr.custom.js"></script>
@@ -32,7 +32,7 @@
 				<a  id="modal-open"><i class="fa fa-plus"></i></a>
 
 				<!-- Main Title -->
-				<h1>Wir sind bald für Sie im da!</h1>
+				<h1>Wir sind bald für Sie da!</h1>
 
 				<!-- Social Links -->
 				<div class="social">

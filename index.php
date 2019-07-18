@@ -5,7 +5,7 @@
 	<head>
 		<!-- Basic Info -->
 		<meta charset="utf-8">
-		<title>VGS Sicherheit AG</title>
+		<title>VGS Sicherheit GmbH</title>
 		<meta name="author" content="Samuel Rüegger">
 		<!-- Mobile  -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -25,42 +25,20 @@
 				
 				<!-- Header -->
 				<header id="header"> 
-					<div id="logo"> <a href="#">Alecto Cooming Soon</a></div>
+					<div id="logo"> <a href="#"> Soon</a></div>
 				</header>
 				
 				<!-- Modal Open -->
 				<a  id="modal-open"><i class="fa fa-plus"></i></a>
 
 				<!-- Main Title -->
-				<h1>We are under construction and almost ready!</h1>
-				
-				<!-- Timer -->
-				<div id="clock"></div>   
-
-				<!-- Newsletter -->
-				<div id="newsletter">
-					<p>Freebies, useful tips, tutorials and a handful of premium wordpress themes. <br />
-						All this will be available soon. Notify me when it's ready:</p>
-
-					<form method="post" action="contact.php" name="contactform" id="contactform">
-						<fieldset>
-							<input name="email" type="text" id="email" placeholder="Please enter your email" />
-							<input type="submit" class="submit" id="submit" value="Notify Me" />
-						</fieldset>
-					</form>
-
-					<div id="message"></div>
-
-				</div>
+				<h1>Wir sind bald für Sie im da!</h1>
 
 				<!-- Social Links -->
 				<div class="social">
 					<ul>
-						<li><a href="#" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-						<li><a href="#" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#" title="Google+"><i class="fa fa-google-plus"></i></a></li>
-						<li><a href="#" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#" title="Vimeo"><i class="fa fa-vimeo-square"></i></a></li>
+						<li><a target="_blank" href="https://www.facebook.com/VGSsicherheitGmbH" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+						<li><a target="_blank" href="https://www.linkedin.com/company/vgs-sicherheit-gmbh/about/" title="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -70,50 +48,47 @@
 		<div id="modal">
 			<div class="container">
 				<div class="one">
-					<h2>Boreiusam, oditatur as siminci dendis nulloritio dolut ea 
-						volupta spelit quo cone quaspelitat lam - Ferecuptatur sim</h2>
+					<h2>Die VGS Sicherheit bereitet ihren Webauftritt vor. Die digitale Visitenkarte befindet sich derzeit im Aufbau.</h2>
 					<a id="modal-close" href="#"><i class="fa fa-minus"></i></a>
 				</div>
 
 				<div class="one-half">
-					<h3>About</h3>
+					<h3>Über uns</h3>
 					<p>
-						Solore simaximus, od quis dolorrovid que nonsed minia 
-						net ut ipsum facerior aperrovitati doluptate offici qui 
-						cust, sin resedis imilia venit aut voluptatque magnimp 
-						oremquu ndicto illor rem. Antibus ciaesti omni ut qui de
-						voluptae. Sum quist aci officiis simmnient eos dolectem.
+						VGS Sicherheit GmbH ist ein regionaler Sicherheitsdienst mit Hauptsitz in Tübach im Kanton St.Gallen. Wir bieten unseren Kunden rundum Lösungen im Bereich der Sicherheit an und stehen rund um die Uhr an 365 Tagen im Jahr zur Verfügung.
 					</p>
 
-					<h3>Some kind of list</h3>
+					<h3>5 Gründe für VGS Sicherheit als Partner</h3>
 					<ul>
-						<li><i class="fa fa-download"></i>Aci officiis simmnient</li>
-						<li><i class="fa fa-check"></i>Antibus ciaesti omni</li>
-						<li><i class="fa fa-css3"></i>Cust sin resedis</li>
-						<li><i class="fa fa-html5"></i>Doluptate offici</li>
-						<li><i class="fa fa-phone"></i>Facerior aperrovitati</li>
+						<?php
+						$reasons = array(
+							'Professionelle Interventionsteams',
+							'24h/365 Tage betriebene Alarmempfangszentrale',
+							'Übersichtliche und individuelle Dienstleistungspakete',
+							'Motivierte und engagierte Mitarbeitende für Ihre Zufriedenheit',
+							'Erfahren in der Zusammenarbeit mit Blaulicht- und Partnerorganisationen'
+						);
+						foreach($reasons as $reason):
+							echo '<li><i class="fa fa-check"></i>'.$reason.'</li>';
+						endforeach;
+						?>
 					</ul>
 				</div>
 
 				<div class="one-half">
-					<h3>Jojn For Free</h3>
+					<h3>Wir sind für Sie da</h3>
 					<p>
-						Ihitias remolup icimincia quiam, aut que magnis aut 
-						velique nat quatur, ut debisqui ut quasperum et, 
-						unt optatet ium libuscidenis verepra sum am, 
-						sequunturiae eos et ad untusdam cum erum repero 
-						ommolup tationsed que nisquam, venim aute dolorum 
-						qui blaborp.
+						Sollten Sie bereits Interesse an unseren Dienstleistungen haben, so stehen wir Ihnen jederzeit telefonisch und per E-Mail zur Verfügung. 
+						Zögern Sie nicht uns zu kontaktieren.
 					</p>
-					<h3>Address</h3>
-					<p>27st Avenue, <br />
-						Manhattan, <br />
-						New York, NY
+					<h3>Adresse</h3>
+					<p>VGS Sicherheit GmbH<br />
+						Wiesenstrasse 11<br />
+						CH-9327 Tübach, SG
 					</p>
 					<ul>
-						<li><i class="fa fa-phone"></i>(000) 123 4567</li>
-						<li><i class="fa fa-print"></i>(111) 123 4567</li>
-						<li><i class="fa fa-envelope"></i>mail@companyname.com</li>
+						<li><i class="fa fa-phone"></i>+41 800 666 667</li>
+						<li><i class="fa fa-envelope"></i><a href="mailto:info@vgs-schweiz.ch">info@vgs-schweiz.ch</a></li>
 					</ul>
 				</div>
 			</div>
@@ -123,7 +98,7 @@
 		<div id="preload">
 			<div id="preload-content">
 				<img src="img/loaders.gif" alt="preload icon"/>
-				<div class="preload-text">loading...</div>
+				<div class="preload-text">Seite wird geladen...</div>
 			</div>
 		</div>
 		
@@ -132,7 +107,6 @@
 
 		<!-- Included JS Files -->
 		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-		<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
 		<script type="text/javascript" src="js/custom.js"></script>
 		<script type="text/javascript" src="js/plugins.js"></script>
 	</body>

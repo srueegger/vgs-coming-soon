@@ -13,7 +13,7 @@
 		<link href='https://fonts.googleapis.com/css?family=Roboto:500,500italic,100,100italic,300,300italic' rel='stylesheet' type='text/css'>
 		<!-- CSS -->
 		<link rel="stylesheet" href="font-awesome/css/font-awesome.css" />
-		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style.css?ver=2" />
 		<!--[if lt IE 9]><script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
 		<!-- JS -->      
 		<script type="text/javascript" src="js/modernizr.custom.js"></script>
